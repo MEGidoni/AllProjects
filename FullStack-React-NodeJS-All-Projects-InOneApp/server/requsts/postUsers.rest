@@ -1,0 +1,9 @@
+post http://localhost:3001/user/register
+Content-Type: application/json
+
+{
+    "name": "Ofer Shelly",
+    "email": "123@123.com",
+    "password": "123",
+    "phone_number": "123"
+}
