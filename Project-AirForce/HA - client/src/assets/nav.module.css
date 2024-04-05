@@ -1,0 +1,13 @@
+.active{
+    margin-right: 20px;
+    font-size: 36px;
+    line-height: 40px;
+    color:aquamarine
+}
+.not_active{
+    color:white;
+    margin-right: 20px;
+    font-size: 36px;
+    line-height: 40px;
+    
+}
