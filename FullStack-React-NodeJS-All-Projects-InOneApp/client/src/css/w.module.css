@@ -1,0 +1,31 @@
+.weatherInfo {
+    background-color: #ffefd5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .location {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e67e22;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    font-size: 16px;
+    color: #3e6790;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 28px;
+    color: #c0392b;
+    margin-bottom: 10px;
+  }
+  
+  .conditions {
+    font-size: 18px;
+    color: #27ae60;
+  }

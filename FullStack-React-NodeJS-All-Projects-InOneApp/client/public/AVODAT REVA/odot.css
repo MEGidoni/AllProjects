@@ -1,0 +1,36 @@
+*{
+    direction: rtl;
+}
+    main {
+        border-bottom: 4px solid white;
+        width: 100%;
+        min-height: 750px;
+        background-image: url(avr-images/odotbg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+    }
+    main .box{
+        min-height: 700px;
+        width: 90%;
+        background: rgba(213, 213, 213, 0.771);
+        border-radius: 35px;
+    }
+    main .box h1{
+        color: rgb(86, 86, 86);
+    }
+    main .box img{
+        width:40% ;
+        border-radius: 35px;
+        box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.42);
+        margin-bottom: 35px;
+    }
+    main .box .ps{
+        max-width: 900px;
+        margin-bottom: 25px;
+        font-family: 'Suez One', serif;
+        font-size:1.3em;
+        color: rgb(86, 86, 86);
+    }
+    

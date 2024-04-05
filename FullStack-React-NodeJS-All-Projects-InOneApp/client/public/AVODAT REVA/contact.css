@@ -1,0 +1,25 @@
+*{
+    direction: rtl;
+}
+main{
+    background-image: url(avr-images/contact1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+main button{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    width: 250px;
+    border: none;
+    padding: 12px 36px;
+    background: rgba(42, 69, 223, 0.773);
+    color: white;
+    font-size: 1.2em;
+    border-radius: 24px;
+    transition: 1000ms;
+}
+main button:hover{
+    transform: scale(1.1);
+    background: rgb(60, 99, 255);
+}
