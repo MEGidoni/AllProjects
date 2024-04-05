@@ -1,0 +1,63 @@
+.light_box{
+  /* גורם לדיב לעקוב אחרינו */
+  position: fixed;
+  top:345px;
+  left:0;
+  /* רוחב וגובה בדיוק של החלון */
+  width:100%;
+  height: 0%;
+  /* רקע שחור שקוף */
+  /* background: rgba(255, 255, 255, 0.65); */
+  /* שתמיג יהיה הכי קדימה */
+  z-index: 999;
+  /* כדי לגרום לבוקס הפנימי להיות ממוקם באמצע */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  display: none;
+  box-sizing: border-box;
+  padding-top: 90px;
+}
+
+/* .inside_box - הריבוע הלבן שהתמונה ,טקסט וכפתור
+נמצאים בו */
+.light_box .inside_box{
+  background:rgb(255, 255, 255); 
+  padding:8px;
+  max-width: 800px;
+  width:100%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin-top: 90px;
+}
+
+.light_box .inside_box img{
+  max-width: 800px;
+  width:90%;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.light_box .inside_box p{
+  color:rgb(128, 128, 128);
+  font-size: 1em;
+}
+
+
+.light_box .inside_box button{
+  background: rgba(117, 163, 255, 0.984);
+  color: rgb(246, 231, 216);
+  border:none;
+  padding:6px 12px;
+  border-radius: 12px;
+}
+
+
+.light_box .inside_box button:hover{
+  color: rgb(246, 231, 216);
+  background: rgb(74, 74, 74);
+}
+
+
+
