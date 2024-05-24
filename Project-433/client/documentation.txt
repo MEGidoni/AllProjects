@@ -1,0 +1,23 @@
+            ---folder structure---
+/public: Public assets like HTML files.
+/tests: Folder for testing files.
+/src: Contains all the source code.
+    /assets: For static assets like images and styles.
+    /components: Reusable UI components.
+    /pages: Components that represent entire pages or sections.
+    /services: API services or utilities.
+    /utils: General utility functions.
+    /context: React context providers.
+    /hooks: Custom React hooks.
+    /redux: Redux setup with actions, reducers, and store configuration.
+    /routes: Application routing setup.
+    App.js: The main component where the app starts.
+    main.js: The entry point of the application.
+    index.html: The root html page.
+    index.css global style.
+    
+.gitignore: List of files and directories not tracked by git.
+package.json: Project metadata and dependencies.
+README.md: Project documentation.
+.eslintrc: ESLint configuration.
+.env: For all envireoment variables
