@@ -8,6 +8,7 @@ import Products from '../components/Products/Products';
 import Notes from '../components/Notes';
 import Map from '../roey/Map';
 import AirForce from '../components/AirForce';
+import Project433 from '../components/Project433';
 const AppRouts = () => {
   return (
     <Routes>
@@ -19,6 +20,7 @@ const AppRouts = () => {
       <Route path='/notes' element={<Notes/>}/>
       <Route path='/map' element={<Map/>}/>
       <Route path='/airforce' element={<AirForce/>}/>
+      <Route path='/433' element={<Project433/>}/>
       <Route path='*'>404 achi!</Route>
     </Route>
 
