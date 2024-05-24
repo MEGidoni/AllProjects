@@ -2,14 +2,14 @@ import React, { useContext } from 'react'
 import UserContext from '../context/userContext';
 
 
-const AirForce = () => {
+const Project433 = () => {
   const { user } = useContext(UserContext);
   return (
     <>
       {user
         ?
         <div className='iframe-container' >
-          <iframe src="https://airforce-meg.netlify.app/" allowFullScreen ></iframe>
+          <iframe src="https://433-project.netlify.app/" allowFullScreen ></iframe>
         </div>
         :
         <div style={{
@@ -28,7 +28,7 @@ const AirForce = () => {
             borderBottom: '2px solid #fff', /* White underline title for emphasis */
             paddingBottom: '10px', /* Spacing under title */
             marginBottom: '20px' /* Spacing after title */
-          }}>Access Restricted - AirForce</h1>
+          }}>Access Restricted - 433</h1>
           <p style={{
             fontSize: '16px', /* Standard text size */
             lineHeight: '1.6',
@@ -51,4 +51,4 @@ const AirForce = () => {
   )
 }
 
-export default AirForce
+export default Project433

@@ -23,7 +23,7 @@ const ProductsControll = ({ setProducts }) => {
     // console.log(data);
     const prod = { id:uuid() , user_id:user.id , is_taken : false , ...data };
     
-      console.log({ prod });
+      // console.log({ prod });
       try {
           await axios.post(ADD_PRODUCT_URL, prod);
       }

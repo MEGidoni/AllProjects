@@ -19,9 +19,10 @@ const NavBar = () => {
               <NavLink className={({ isActive }) => isActive ? styles.active : styles.not_active} to={'/LOGIN'}>LogIn</NavLink>
             }
             <NavLink className={({ isActive }) => isActive ? styles.active : styles.not_active} to={'/PRODUCTS'}>Products</NavLink>
-            <NavLink className={({ isActive }) => isActive ? styles.active : styles.not_active} to={'/NOTES'}>Notes</NavLink>
             <NavLink className={({ isActive }) => isActive ? styles.active : styles.not_active} to={'/MAP'}>Map</NavLink>
+            <NavLink className={({ isActive }) => isActive ? styles.active : styles.not_active} to={'/NOTES'}>Notes</NavLink>
             <NavLink className={({ isActive }) => isActive ? styles.active : styles.not_active} to={'/airforce'}>AirForce</NavLink>
+            <NavLink className={({ isActive }) => isActive ? styles.active : styles.not_active} to={'/433'}>433</NavLink>
           </div>
           {
             user &&
